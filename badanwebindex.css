@@ -1,0 +1,197 @@
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#7386D5;
+}
+
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+button {
+	height:38px;
+	background: :#000000;
+	border:0;
+	padding-left:10px;
+	padding-right:10px;
+	color:#cccc99;
+	
+}
+
+.dark{
+	padding:15px;
+	background: #000000;
+	color : #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+header{
+	background:#7386D5;
+	color:yellow;
+	padding-top: :30px;
+	min-height:70px;
+	border-bottom: gray 3px solid;
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+}
+header a :hover{
+	color:#6d7fcc;
+	text-decoration:none;
+	font-size:18px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 10px 0 10px ;
+}
+
+header #branding{
+	float:left;
+
+}
+
+header #branding h1{
+
+	font-size: 15px;
+	float:left;
+}
+
+header #branding img{
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 100px;
+}
+
+header nav{
+	float:right;
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+
+
+header .highlight, header, current a{
+	color:#000000;
+	font-weight: bold;
+}
+
+header a :hover{
+	color:#6d7fcc;
+	font-weight:bold;
+}
+
+
+
+#showcase{
+	min-height:400px;
+	text-align:center;
+	color:#ffffff;
+}
+
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size:20px;
+	text-align: center;  
+}
+
+/*bagian box*/
+
+#boxes{
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+
+		
+}
+
+#boxes .box{
+float:left;
+	text-align: center; 
+	width:20%;
+	padding:50px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+
+}
+
+#boxes .box img{
+text-align: center;
+width :200px;
+
+}
+
+#boxes .box h3{
+margin-top: 20px;
+
+}
+#boxes .box p{
+margin-top: 20px;
+
+border: 2px #3b5998 solid;
+border-radius:10px; 
+
+}
+
+#boxes .box p:hover{
+	color: white;
+margin-top: 20px;
+border: 2px black solid;
+border-radius:10px; 
+
+}
+
+
+
+aside#sidebar{
+float:right;
+width:30%;
+margin-top: 10px;
+
+
+
+
+}
+
+article#main-col{
+	float:left;
+	width:60%;
+}
+
+
+footer{
+	border-top: #3b5998 3px solid;
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color: grey;
+
+}
+
+
+
+
+
